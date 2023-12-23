@@ -8,13 +8,13 @@ let flag =false;
 let state =null;
 
 //DataType:
-//number      =>
+//number      => 2 ^ 53
 //bigint      => It is used for mostly massive data;
-//string      =>"";
+//string      =>"assembly of characters";
 //boolean     =>true/false;
-//null        =>standalone value;
-//undefined   =>                 ;
-//symbol      =>unique         ;
+//null        =>standalone value (type = object);
+//undefined   =>  kind of place holder for a value which is not defined yet (type = undefined)               ;
+//symbol      =>unique  ;
 
 
 //object
