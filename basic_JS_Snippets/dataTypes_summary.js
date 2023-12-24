@@ -62,3 +62,30 @@ Symbol	      |    "symbol"
 // Reference (Non Primitive) 
 // Array ,Objects [V.V.I],Functions 
 
+//******************************************************
+
+// Stack(Primitive) and Heap(Non-Primitive)
+let name= "Rohit"
+
+let anotherName = name
+anotherName = "Virat"
+
+console.log(name);
+console.log(anotherName);
+// O/P:
+// Rohit
+// Virat   Here a copy is paased in stack
+
+const person1 ={
+       id : 1,
+       city : "Pune",
+}
+
+const person2 =person1
+person2.city = "Banglaore"
+
+console.log(person1);
+console.log(person2);
+// O/P:
+// { id: 1, city: 'Banglaore' }
+// { id: 1, city: 'Banglaore' }   Here the references is passed in the heap;
