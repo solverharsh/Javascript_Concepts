@@ -177,7 +177,7 @@ console.log(padded);
 let text = "5";
 let padded = text.padEnd(4,"x");
 console.log(padded);
-
+//
 // The padEnd() method is a string method.
 // To pad a number, convert the number to a string first.
 
