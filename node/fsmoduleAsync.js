@@ -1,20 +1,6 @@
-// const { readFileSync, writeFileSync } = require("fs");
-
-// const first = readFileSync("./TextContent/first.txt", "utf8");
-// const second = readFileSync("./TextContent/second.txt", "utf8");
-
-// // console.log(first, second);
-
-// writeFileSync(
-//   "./TextContent/result-Sync.txt",
-//   `Here is the result : ${first} , ${second}`,
-//   { flag: "a" }
-// );
-
-// const result = readFileSync("./TextContent/result-Sync.txt", "utf8");
-// console.log(result);
-
 const { readFile, writeFile } = require("fs");
+// Callback hell ;
+console.log("Starting the first task....");
 
 readFile("./TextContent/first.txt", "utf8", (err, result) => {
   if (err) {
@@ -36,8 +22,10 @@ readFile("./TextContent/first.txt", "utf8", (err, result) => {
           console.log(err);
           return;
         }
-        console.log(result);
+        console.log("Done with the first task...");
       }
     );
   });
 });
+
+console.log("Starting the next task...");
