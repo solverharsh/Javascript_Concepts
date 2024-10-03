@@ -1,0 +1,52 @@
+*{
+    margin:0;
+    padding:0;
+    background-color: black;
+    color: white;
+}
+.heading{
+    background-color: white;
+    color: darkred;
+    text-align: center;
+    padding: 5px;
+}
+.block-btn{
+    width: fit-content;
+    height: fit-content;
+    background-color: bisque;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 10px;
+    margin-left: 550px;
+    margin-top: 50px;
+}
+.block-summary{
+    width: fit-content;
+    height: fit-content;
+    background-color: bisque;
+    margin: 10px;
+    padding: 10px 50px;
+    margin-left: 620px;
+    margin-top: 50px;
+}
+#item-summary{
+    background-color: bisque;
+    color:darkred;
+}
+.btn-add{
+    background-color: white;
+    color:darkred;
+    padding:10px;
+    margin: 10px;
+    border: none;
+    border-radius: 10px;
+}
+.btn-wish{
+    background-color: white;
+    color:darkred;
+    padding:10px;
+    margin: 10px;
+    border: none;
+    border-radius: 10px;
+    text-transform: uppercase;
+}
