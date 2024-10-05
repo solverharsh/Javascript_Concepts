@@ -1,0 +1,9 @@
+document.querySelector('.my-button').classList;
+DOMTokenList ['my-button', value: 'my-button']0: "my-button"length: 1value: "my-button"[[Prototype]]: DOMTokenList
+document.querySelector('.my-button').classList.add('your-button');
+undefined
+document.querySelector('.my-button').classList;
+DOMTokenList(2) ['my-button', 'your-button', value: 'my-button your-button']0: "my-button"1: "your-button"length: 2value: "my-button your-button"[[Prototype]]: DOMTokenList
+document.querySelector('.my-button').classList.remove('your-button');
+undefined
+document.querySelector('.my-button').classList;

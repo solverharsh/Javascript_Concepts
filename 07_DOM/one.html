@@ -5,16 +5,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DOM Learning</title>
     <style>
-        .bg-black{
+        *{
+            margin:0;
+            padding:0;
+            text-align: center;
+        }
+        .heading{
             background-color: black;
             color:white;
+            padding:10px;
+        }
+        .my-button{
+            width:fit-content;
+            height:fit-content;
+            font-size: larger;
+            padding:15px;
+            background-color: black;
+            color:white;
+            margin-top:100px;
         }
     </style>
 </head>
 <body>
-    <div class="bg-black">
-        <h1 id = "title" class ="heading">Learning Document Object Model</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa distinctio quasi necessitatibus vitae iure a facilis id expedita, vel ipsam?</p>
-    </div>
+    <h1 id = "title" class ="heading">Learning Document Object Model</h1>
+    <div class="my-div">This is the Div</div>
+    <button class="my-button">Click Me</button>
+
+    <script>
+        let button = document.createElement('Button');
+        button.innerText = 'Hover Me';
+        document.querySelector('.my-div').appendChild(button);
+    </script>
 </body>
 </html>
